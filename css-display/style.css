@@ -1,0 +1,82 @@
+/* Display Block */
+
+.box-1 {
+    background: red;
+    display: block;
+}
+
+.box-2 {
+    background: blue;
+    display: block;
+}
+
+.box-3 {
+    background: green;
+    display: block;
+}
+
+
+/* Display Inline */
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    font-size: 20px;
+    display: inline;
+}
+
+
+/* Display Inline-Block */
+
+.box-4 {
+    background: blueviolet;
+    display: inline-block;
+    width: 30%;
+}
+
+.box-5 {
+    background: orange;
+    display: inline-block;
+    width: 30%;
+}
+
+.box-6 {
+    background: yellow;
+    display: inline-block;
+    width: 30%;
+}
+
+
+/* Display Flex */
+
+.flex-container {
+    display: flex;
+    gap: 10px;
+    background: #f2f2f2;
+    padding: 25px;
+}
+
+.flex-item {
+    flex: 1;
+    background: #4caf50;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+
+/* Display Grid */
+
+.grid-container {
+    display: grid;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.grid-item {
+    background: #4caf50;
+    padding: 25px;
+    text-align: center;
+}
